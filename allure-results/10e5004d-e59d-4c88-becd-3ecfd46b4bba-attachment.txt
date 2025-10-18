@@ -1,0 +1,144 @@
+[INFO ] 2025-10-18 20:53:43.003 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                                    Powered by [1mSHAFT v.8.4.20241024[22m                                                    
+                                   Visit SHAFT's user guide [4mhttps://shafthq.github.io/[24m to learn more                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-10-18 20:53:43.007 [] ReportManager - Checking for engine updates...
+[INFO ] 2025-10-18 20:53:43.014 [] ReportManager - Initializing Summary Reporting Environment...
+[INFO ] 2025-10-18 20:53:43.019 [main] ReportManager - TestNG run detected...
+[INFO ] 2025-10-18 20:53:43.020 [] ReportManager - Initializing Allure Reporting Environment...
+[INFO ] 2025-10-18 20:53:43.232 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of suite setup configuration method                                             
+                                          'com.shaft.listeners.internal.ConfigurationHelper.suiteSetup'                                          
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-10-18 20:53:43.252 [main] ReportManager - Initializing Properties...
+[INFO ] 2025-10-18 20:53:43.324 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of browsersetup configuration method                                             
+                                                             'usertest.browsersetup'                                                             
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-10-18 20:53:43.335 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2025-10-18 20:53:43.401 [main] ReportManager - Setting "screenshotParams_scalingFactor" property with "1.0".
+[INFO ] 2025-10-18 20:53:43.925 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-search-engine-cho..., --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Optimiza..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-sync, --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --remote-debugging-pipe, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: E:\shopping\target\download..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2025-10-18 20:53:43.926 [main] ReportManager - Attempting to run locally on: "Windows | Chrome".
+[INFO ] 2025-10-18 20:53:43.926 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[INFO ] 2025-10-18 20:53:44.148 [] ReportManager - Loaded OpenCV "opencv_java490".
+[WARN ] 2025-10-18 20:53:45.834 [main] ReportManager - Oct 18, 2025 8:53:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2025-10-18 20:53:45.834 [main] ReportManager - WARNING: Unable to find CDP implementation matching 141
+[WARN ] 2025-10-18 20:53:45.835 [main] ReportManager - Oct 18, 2025 8:53:45 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+[WARN ] 2025-10-18 20:53:45.835 [main] ReportManager - WARNING: Unable to find version of CDP to use for 141.0.7390.108. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[INFO ] 2025-10-18 20:53:45.838 [main] ReportManager - Successfully Opened: "Windows | Chrome".
+[INFO ] 2025-10-18 20:53:45.856 [main] ReportManager - Target URL: "https://subscribe.stctv.com/sa-ar"
+[INFO ] 2025-10-18 20:53:45.872 [main] ReportManager - Initial URL: "about:blank"
+[WARN ] 2025-10-18 20:53:46.015 [] ReportManager - 
+[1;33m------------------------------------------------------------------------------------------------------------------------------------------------
+                                          ⚠️ You're using an outdated engine version "8.4.20241024" ⚠️                                          
+                                 Kindly upgrade to the latest one "9.4.20251007" to ensure the best experience.                                 
+                           For more information click here: https://github.com/ShaftHQ/SHAFT_ENGINE/releases/latest .                           
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-10-18 20:53:51.445 [main] ReportManager - Navigate to url "https://subscribe.stctv.com/sa-ar".
+[INFO ] 2025-10-18 20:53:51.449 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: browsersetup'
+[INFO ] 2025-10-18 20:53:51.530 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 3' test cases in the current suite                                        
+                                                   Test Method: 'usertest.validatebahrianuser'                                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-10-18 20:53:51.679 [main] ReportManager - Click "sa   السعودية"
+[INFO ] 2025-10-18 20:53:52.210 [main] ReportManager - Click "By.xpath: //*[@id="bh-country-flag"]"
+[INFO ] 2025-10-18 20:53:53.075 [main] ReportManager - Get text "دينار بحريني/الشهر" from "By.xpath: //i[contains(text(),'دينار بحريني/الشهر')]".
+[INFO ] 2025-10-18 20:53:53.133 [main] ReportManager - Get text "3" from "By.xpath: //*[@id="wrapper"]/div[1]/div/div/div[2]/div[4]/div/b".
+[INFO ] 2025-10-18 20:53:53.138 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: validatebahrianuser'
+[INFO ] 2025-10-18 20:53:53.138 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Finished Execution of Test Method: 'usertest.validatebahrianuser'                                        
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-10-18 20:53:53.149 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of browsersetup configuration method                                             
+                                                             'usertest.browsersetup'                                                             
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-10-18 20:53:53.153 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2025-10-18 20:53:53.158 [main] ReportManager - Setting "screenshotParams_scalingFactor" property with "1.0".
+[INFO ] 2025-10-18 20:53:53.672 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-search-engine-cho..., --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Optimiza..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-sync, --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --remote-debugging-pipe, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: E:\shopping\target\download..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2025-10-18 20:53:53.675 [main] ReportManager - Attempting to run locally on: "Windows | Chrome".
+[INFO ] 2025-10-18 20:53:53.676 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[WARN ] 2025-10-18 20:53:55.055 [main] ReportManager - Oct 18, 2025 8:53:55 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2025-10-18 20:53:55.055 [main] ReportManager - WARNING: Unable to find CDP implementation matching 141
+[WARN ] 2025-10-18 20:53:55.055 [main] ReportManager - Oct 18, 2025 8:53:55 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+[WARN ] 2025-10-18 20:53:55.056 [main] ReportManager - WARNING: Unable to find version of CDP to use for 141.0.7390.108. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[INFO ] 2025-10-18 20:53:55.056 [main] ReportManager - Successfully Opened: "Windows | Chrome".
+[INFO ] 2025-10-18 20:53:55.058 [main] ReportManager - Target URL: "https://subscribe.stctv.com/sa-ar"
+[INFO ] 2025-10-18 20:53:55.072 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2025-10-18 20:53:59.958 [main] ReportManager - Navigate to url "https://subscribe.stctv.com/sa-ar".
+[INFO ] 2025-10-18 20:53:59.959 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: browsersetup'
+[INFO ] 2025-10-18 20:53:59.965 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '2 out of 3' test cases in the current suite                                        
+                                                  Test Method: 'usertest.validatekwauiateuser'                                                  
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-10-18 20:54:00.113 [main] ReportManager - Click "sa   السعودية"
+[INFO ] 2025-10-18 20:54:00.751 [main] ReportManager - Click "By.xpath: //div[@id='kw-country-flag']"
+[INFO ] 2025-10-18 20:54:01.568 [main] ReportManager - Get text "دينار كويتي/الشهر" from "By.xpath: //i[contains(text(),'دينار كويتي/الشهر')]".
+[INFO ] 2025-10-18 20:54:01.644 [main] ReportManager - Get text "2.5" from "By.xpath: //*[@id="wrapper"]/div[1]/div/div/div[2]/div[4]/div/b".
+[INFO ] 2025-10-18 20:54:01.648 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: validatekwauiateuser'
+[INFO ] 2025-10-18 20:54:01.649 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                       Finished Execution of Test Method: 'usertest.validatekwauiateuser'                                       
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-10-18 20:54:01.653 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                             Starting execution of browsersetup configuration method                                             
+                                                             'usertest.browsersetup'                                                             
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-10-18 20:54:01.667 [main] ReportManager - Setting "targetOperatingSystem" property with "windows".
+[INFO ] 2025-10-18 20:54:01.672 [main] ReportManager - Setting "screenshotParams_scalingFactor" property with "1.0".
+[INFO ] 2025-10-18 20:54:02.185 [main] ReportManager - Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-search-engine-cho..., --remote-allow-origins=*, --enable-automation, --disable-background-timer-..., --disable-backgrounding-occ..., --disable-features=Optimiza..., --disable-hang-monitor, --disable-domain-reliability, --disable-renderer-backgrou..., --metrics-recording-only, --no-first-run, --no-default-browser-check, --silent-debugger-extension..., --disable-extensions, --disable-component-extensi..., --disable-dev-shm-usage, --disable-ipc-flooding-prot..., --disable-background-networ..., --mute-audio, --disable-breakpad, --ignore-certificate-errors, --disable-device-discovery-..., --force-color-profile=srgb, --hide-scrollbars, --host-resolver-rules, --no-pings, --disable-sync, --disable-field-trial-config, --enable-features=NetworkSe..., --enable-features=NetworkSe..., --enable-use-zoom-for-dsf, --log-net-log, --net-log-capture-mode, --disable-client-side-phish..., --disable-default-apps, --remote-debugging-pipe, --no-sandbox, --start-maximized], extensions: [], prefs: {download.default_directory: E:\shopping\target\download..., download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, pageLoadStrategy: normal, timeouts: {pageLoad: 60000, script: 60000}, unhandledPromptBehavior: ignore, webSocketUrl: true}
+[INFO ] 2025-10-18 20:54:02.186 [main] ReportManager - Attempting to run locally on: "Windows | Chrome".
+[INFO ] 2025-10-18 20:54:02.186 [main] ReportManager - Identifying OS/Driver combination. Please note that if a new browser/driver executable will be downloaded it may take some time depending on your connection...
+[WARN ] 2025-10-18 20:54:03.477 [main] ReportManager - Oct 18, 2025 8:54:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+[WARN ] 2025-10-18 20:54:03.477 [main] ReportManager - WARNING: Unable to find CDP implementation matching 141
+[WARN ] 2025-10-18 20:54:03.477 [main] ReportManager - Oct 18, 2025 8:54:03 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+[WARN ] 2025-10-18 20:54:03.478 [main] ReportManager - WARNING: Unable to find version of CDP to use for 141.0.7390.108. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.25.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[INFO ] 2025-10-18 20:54:03.478 [main] ReportManager - Successfully Opened: "Windows | Chrome".
+[INFO ] 2025-10-18 20:54:03.479 [main] ReportManager - Target URL: "https://subscribe.stctv.com/sa-ar"
+[INFO ] 2025-10-18 20:54:03.494 [main] ReportManager - Initial URL: "about:blank"
+[INFO ] 2025-10-18 20:54:08.990 [main] ReportManager - Navigate to url "https://subscribe.stctv.com/sa-ar".
+[INFO ] 2025-10-18 20:54:08.994 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: browsersetup'
+[INFO ] 2025-10-18 20:54:09.000 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '3 out of 3' test cases in the current suite                                        
+                                                    Test Method: 'usertest.validatesaudiuser'                                                    
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-10-18 20:54:09.141 [main] ReportManager - Click "sa   السعودية"
+[INFO ] 2025-10-18 20:54:09.162 [main] ReportManager - Explicit wait until: "presence of any elements located by By.xpath: //*[@id="sa-country-flag"]".
+[INFO ] 2025-10-18 20:54:09.621 [main] ReportManager - Click "By.xpath: //*[@id="sa-country-flag"]"
+[INFO ] 2025-10-18 20:54:10.342 [main] ReportManager - Get text "ريال سعودي/الشهر" from "By.xpath: //i[contains(text(),'ريال سعودي/الشهر')]".
+[INFO ] 2025-10-18 20:54:10.382 [main] ReportManager - Get text "15" from "By.xpath: //*[@id="wrapper"]/div[1]/div/div/div[2]/div[4]/div/b".
+[INFO ] 2025-10-18 20:54:10.385 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Current Method log: validatesaudiuser'
+[INFO ] 2025-10-18 20:54:10.385 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                         Finished Execution of Test Method: 'usertest.validatesaudiuser'                                         
+                                                              Test Status: 'Passed'                                                              
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-10-18 20:54:10.390 [main] ReportManager - 
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                           Starting execution of engine tear down configuration method                                           
+                                        'com.shaft.listeners.internal.ConfigurationHelper.engineTearDown'                                        
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[INFO ] 2025-10-18 20:54:10.391 [main] ReportManager - Successfully created attachment 'SHAFT Engine Logs - Execution log'
