@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 public class usertest {
 
     SHAFT.GUI.WebDriver driver;
-    usertype user;
+    usersubscription user;
     String actualcurrency;
     int actualprice;
 
@@ -17,7 +17,7 @@ public class usertest {
     public void browsersetup(){
     driver=new SHAFT.GUI.WebDriver();
     driver.browser().navigateToURL("https://subscribe.stctv.com/sa-ar");
-    user=new usertype(driver);
+    user=new usersubscription(driver);
 
 
 }

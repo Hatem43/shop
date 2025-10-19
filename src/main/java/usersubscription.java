@@ -1,8 +1,7 @@
 import com.shaft.driver.SHAFT;
-import org.opencv.calib3d.StereoBM;
 import org.openqa.selenium.By;
 
-public class usertype {
+public class usersubscription {
 
     SHAFT.GUI.WebDriver driver;
 
@@ -28,7 +27,7 @@ public class usertype {
     String basice="";
     String perminume="";
 
-    public usertype(SHAFT.GUI.WebDriver driver) {
+    public usersubscription(SHAFT.GUI.WebDriver driver) {
         this.driver = driver;
     }
 
