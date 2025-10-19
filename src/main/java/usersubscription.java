@@ -33,7 +33,6 @@ public class usersubscription {
 
     public boolean choosesaudicountry() {
         driver.element().click(country);
-        driver.element().waitUntilPresenceOfAllElementsLocatedBy(saudicountry);
         driver.element().click(saudicountry);
         saudiain = true;
         return saudiain;
