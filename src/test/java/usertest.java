@@ -41,6 +41,7 @@ public class usertest {
    }
 
 
+
        @Test
        public void validatekwauiateuser () {
 
@@ -75,5 +76,6 @@ public class usertest {
                Assert.assertEquals(perminumsubscription,"ابدأ تجربتك المجانية");
            }
        }
+
 
    }

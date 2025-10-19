@@ -56,18 +56,18 @@ public class usersubscription {
     }
 
     public String verifybasicuser(){
-        boolean basic=driver.element().isElementDisplayed(basicuser);
+        String basic=driver.element().getText(basicuser);
 
-        if(basic){
+        if(basic.equalsIgnoreCase("بيسك")){
              basice=driver.element().getText(basicsubscribe);
         }
         return basice;
     }
 
     public String verifyperminumuser(){
-        boolean perminum=driver.element().isElementDisplayed(perminumuser);
+        String perminum=driver.element().getText(perminumuser);
 
-        if (perminum){
+        if (perminum.equalsIgnoreCase("بريميوم")){
             perminume=driver.element().getText(perminumsubscribe);
         }
         return perminume;
