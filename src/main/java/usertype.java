@@ -1,4 +1,5 @@
 import com.shaft.driver.SHAFT;
+import org.opencv.calib3d.StereoBM;
 import org.openqa.selenium.By;
 
 public class usertype {
@@ -15,11 +16,17 @@ public class usertype {
     By saudiperminum = By.xpath("//*[@id=\"wrapper\"]/div[1]/div/div/div[2]/div[4]/div/b");
     By kuwaitperminum = By.xpath("//*[@id=\"wrapper\"]/div[1]/div/div/div[2]/div[4]/div/b");
     By bahrenperminum = By.xpath("//*[@id=\"wrapper\"]/div[1]/div/div/div[2]/div[4]/div/b");
+    By basicuser=By.xpath("//strong[contains(text(),'بيسك')]");
+    By perminumuser=By.xpath("//strong[contains(text(),'بريميوم')]");
+    By basicsubscribe=By.xpath("//a[contains(text(),'اشترك الآن مجاناً')]");
+    By perminumsubscribe=By.xpath("//a[contains(text(),'ابدأ تجربتك المجانية')]");
 
 
     boolean saudiain = false;
     boolean kwatian = false;
     boolean bahrian = false;
+    String basice="";
+    String perminume="";
 
     public usertype(SHAFT.GUI.WebDriver driver) {
         this.driver = driver;
@@ -47,6 +54,24 @@ public class usertype {
         bahrian = true;
         return bahrian;
 
+    }
+
+    public String verifybasicuser(){
+        boolean basic=driver.element().isElementDisplayed(basicuser);
+
+        if(basic){
+             basice=driver.element().getText(basicsubscribe);
+        }
+        return basice;
+    }
+
+    public String verifyperminumuser(){
+        boolean perminum=driver.element().isElementDisplayed(perminumuser);
+
+        if (perminum){
+            perminume=driver.element().getText(perminumsubscribe);
+        }
+        return perminume;
     }
 
 

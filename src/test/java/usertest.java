@@ -33,8 +33,13 @@ public class usertest {
            actualprice = user.validatesuaidandbahrianperminumprice();
            int expectedprice = 15;
            Assert.assertEquals(actualprice, expectedprice);
+           String basicsubscription=user.verifybasicuser();
+           Assert.assertEquals(basicsubscription,"اشترك الآن مجاناً");
+           String perminumsubscription=user.verifyperminumuser();
+           Assert.assertEquals(perminumsubscription,"ابدأ تجربتك المجانية");
        }
    }
+
 
        @Test
        public void validatekwauiateuser () {
@@ -46,6 +51,10 @@ public class usertest {
                double actualprice=Double.valueOf(user.validatekwuaitprice());
                double expectedprice = 2.5;
                Assert.assertEquals(actualprice, expectedprice);
+               String basicsubscription=user.verifybasicuser();
+               Assert.assertEquals(basicsubscription,"اشترك الآن مجاناً");
+               String perminumsubscription=user.verifyperminumuser();
+               Assert.assertEquals(perminumsubscription,"ابدأ تجربتك المجانية");
            }
        }
 
@@ -60,6 +69,10 @@ public class usertest {
                actualprice = user.validatesuaidandbahrianperminumprice();
                int expectedprice = 3;
                Assert.assertEquals(actualprice, expectedprice);
+               String basicsubscription=user.verifybasicuser();
+               Assert.assertEquals(basicsubscription,"اشترك الآن مجاناً");
+               String perminumsubscription=user.verifyperminumuser();
+               Assert.assertEquals(perminumsubscription,"ابدأ تجربتك المجانية");
            }
        }
 
